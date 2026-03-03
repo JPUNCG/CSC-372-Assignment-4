@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+section {
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.choice-img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin: 10px;
+    border: 5px solid transparent;
+    transition: border 0.3s;
+}
+
+.selected {
+    border: 5px solid #3498db;
+    border-radius: 10px;
+}
+
+#computer-img {
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
